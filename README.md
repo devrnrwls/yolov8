@@ -9,8 +9,9 @@ Pip install the ultralytics package including all [requirements](https://github.
 
 [![PyPI version](https://badge.fury.io/py/ultralytics.svg)](https://badge.fury.io/py/ultralytics) [![Downloads](https://static.pepy.tech/badge/ultralytics)](https://pepy.tech/project/ultralytics)
 
+ [Pytorch version Site] https://pytorch.org/get-started/previous-versions/
 ```bash
-# CUDA 11.6 (CUDA 버전 확인: https://pytorch.org/get-started/previous-versions/)
+#CUDA 11.6
 pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
 
 pip install ultralytics
