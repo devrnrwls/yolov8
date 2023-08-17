@@ -22,7 +22,9 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
 
 <details open>
 <summary>Usage</summary>
-#### CustomDataset
+
+  #### CustomDataset
+  
 데이터셋 Root Path 및 weight 저장되는 폴더 설정: "~/.config/Ultralytics/settings.yaml"
 ```bash
 ./ultralytics/models/yolo/detect/train.py
