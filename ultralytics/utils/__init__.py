@@ -350,6 +350,10 @@ def yaml_print(yaml_file: Union[str, Path, dict]) -> None:
 
 
 # Default configuration
+#default.yaml파일 가지고 오는 위치 확인하기 위해 출력해봄
+#ultralytics가 pip에서 제공하는 라이브러리에도 있고 로컬폴더에도 있어서 train.py위치를 최상단에 두고 실행해야 중복에서 오는 문제 없음.
+print("devrnrwls- DEFAULT_CFG_PATH: ", DEFAULT_CFG_PATH)
+
 DEFAULT_CFG_DICT = yaml_load(DEFAULT_CFG_PATH)
 for k, v in DEFAULT_CFG_DICT.items():
     if isinstance(v, str) and v.lower() == 'none':
