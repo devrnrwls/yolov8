@@ -107,7 +107,10 @@ class DetectionTrainer(BaseTrainer):
 def train(cfg=DEFAULT_CFG, use_python=False):
     """Train and optimize YOLO model given training data and device."""
     model = cfg.model or 'yolov8n.pt'
-    data = cfg.data or 'coco128.yaml'  # or yolo.ClassificationDataset("mnist")
+
+    #콘솔에서 train.py가 제대로 실행되지 않아 테스트하기 위해 'coco128.yaml'주석처리함
+    data = cfg.data #or 'coco128.yaml'  #or yolo.ClassificationDataset("mnist")
+
     device = cfg.device if cfg.device is not None else ''
 
     args = dict(model=model, data=data, device=device)
