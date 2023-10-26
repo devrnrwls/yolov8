@@ -38,7 +38,19 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
 #### Train File
 
 ```bash
-./ultralytics/models/yolo/detect/train.py
+./ultralytics/models/yolo/detect/train.py (폴더 최상단으로 이동)
+```
+
+#### predict setup
+```bash
+(training hyperparameter) ./ultralytics/cfg/default.yaml
+(학습에 사용한 모델 settings 예시) model:  ./runs/detect/train19/weights/last.pt
+(Prediction settings 에서 예측할 폴더 설정 예시 ) source:  './predict_dataset3'
+```
+
+#### Predict File
+```bash
+./ultralytics/models/yolo/detect/predict.py (폴더 최상단으로 이동)
 ```
 
 #### CLI
