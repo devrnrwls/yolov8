@@ -1,3 +1,8 @@
+ predict_dataset/
+ predict_dataset2/
+ predict_dataset3/
+ runs_back/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
