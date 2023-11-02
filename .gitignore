@@ -1,7 +1,5 @@
- predict_dataset/
- predict_dataset2/
- predict_dataset3/
- runs_back/
+predict_dataset*/
+runs_back/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -143,6 +141,7 @@ datasets/
 runs/
 wandb/
 .DS_Store
+
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
 weights/
