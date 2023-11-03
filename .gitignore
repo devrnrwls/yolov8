@@ -1,5 +1,7 @@
 predict_dataset*/
 runs_back/
+*.avi
+*.mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
