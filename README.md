@@ -28,11 +28,12 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
   
 학습 전 셋팅이 필요한 yaml 파일들
 ```bash
-(datasets root path) ~/.config/Ultralytics/settings.yaml
 
 (training hyperparameter) ./ultralytics/cfg/default.yaml
 
 (dataset path) ./ultralytics/cfg/default.yaml 안에 data에서 customDataset.yaml 위치 지정
+
+(참고로 data root path는 해당 위치에 지정되어 있음) ~/.config/Ultralytics/settings.yaml
 
 (참고로 dataset 기본 양식 위치) ./ultralytics/models/yolo/detect/customDataset.yaml
 ```
