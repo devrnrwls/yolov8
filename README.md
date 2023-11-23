@@ -32,7 +32,9 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
 
 (training hyperparameter) ./ultralytics/cfg/default.yaml
 
-(dataset path) ./ultralytics/models/yolo/detect/customDataset.yaml
+(dataset path) ./ultralytics/cfg/default.yaml 안에 data에서 customDataset.yaml 위치 지정
+
+(참고로 dataset 기본 양식 위치) ./ultralytics/models/yolo/detect/customDataset.yaml
 ```
 
 #### Train File
